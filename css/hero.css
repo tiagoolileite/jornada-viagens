@@ -3,6 +3,7 @@
   height: 400px;
   background: url(../img/hero-mobile.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .hero h2 {
@@ -19,6 +20,7 @@
     height: 620px;
     background: url(../img/hero-tablet.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
   }
 
   .hero h2 {
@@ -31,6 +33,7 @@
   .hero-img {
     background: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
   }
 
   .hero h2 {

@@ -40,4 +40,45 @@ button {
 
 body {
   font-family: "Montserrat";
+  color: var(--text-primary-color);
+}
+
+.section-tittle h2 {
+  font-size: 28px;
+  font-weight: var(--tittle-weight);
+  margin: 0;
+  text-align: center;
+}
+
+.section-tittle hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secundary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+.button {
+  width: 280px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  font-weight: var(--tittle-weight);
+  font-size: 20px;
+  background-color: var(--secundary-color);
+  border-radius: 16px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-tittle h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--primary-color);
+  }
 }
