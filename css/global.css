@@ -43,6 +43,11 @@ body {
   color: var(--text-primary-color);
 }
 
+section {
+  margin: 88px 0;
+  padding: 0 24px;
+}
+
 .section-tittle h2 {
   font-size: 28px;
   font-weight: var(--tittle-weight);
@@ -71,14 +76,68 @@ body {
   line-height: 64px;
 }
 
+.card-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.card {
+  width: 312px;
+  padding: 24px 16px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.card header {
+  display: block;
+  background-color: transparent;
+  position: static;
+  padding: 0;
+}
+
 @media screen and (min-width: 768px) {
+  section {
+    padding: 0 60px;
+  }
+
   .section-tittle h2 {
     font-size: 32px;
+  }
+
+  .card-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .button:hover {
     background-color: var(--primary-color);
+  }
+
+  .card {
+    width: 420px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section {
+    margin: 104px 0;
+    padding: 0 120px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  section {
+    padding: 0 160px;
+  }
+
+  .card-list {
+    width: 1250px;
+    margin: 0 auto;
   }
 }
