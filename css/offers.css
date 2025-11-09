@@ -60,4 +60,8 @@
     width: 588px;
     height: 308px;
   }
+
+  .card-offer header h3 {
+    font-size: 48px;
+  }
 }
