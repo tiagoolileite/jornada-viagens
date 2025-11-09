@@ -3,6 +3,10 @@
   height: 288px;
 }
 
+.card-offer header {
+  margin-bottom: 24px;
+}
+
 .card-offer header p {
   font-size: 20px;
   font-weight: var(--text-weight);

@@ -1,0 +1,32 @@
+.card-link {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  color: var(--text-primary-color);
+  height: 220px;
+  background-color: var(--background-secondary-color);
+}
+
+.card-category img {
+  height: 80px;
+}
+
+.card-category footer h3 {
+  font-size: 28px;
+  font-weight: var(--tittle-weight);
+  margin: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .card-category {
+    width: 280px;
+  }
+}
