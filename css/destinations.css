@@ -56,3 +56,32 @@
     width: 280px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .destination-item {
+    width: 48%;
+    max-width: 1000px;
+  }
+
+  .img-item-tokyo {
+    width: 100%;
+    height: 452px;
+    background: url(../img/tokyo-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-item-osaka {
+    width: 100%;
+    height: 452px;
+    background: url(../img/osaka-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .destination-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
