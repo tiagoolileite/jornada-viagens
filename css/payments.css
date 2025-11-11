@@ -1,31 +1,79 @@
-.image-content {
+.payments .image-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, auto);
-  grid-template-areas:
-    "bag passport" /* Primeira linha: duas áreas lado a lado */
-    "people people"; /* Segunda linha: uma área ocupando duas colunas */
-  height: 400px;
+  height: 460px;
   gap: 24px;
 }
 
-.image.bag {
-  grid-area: bag;
-  background: url("../img/bg-bag-mobile.jpg") no-repeat center;
+.payments .image-gallery .image.first {
+  background: url("../img/bg-bag-mobile.jpg") no-repeat;
   background-size: cover;
 }
 
-.image.passport {
-  grid-area: passport;
-  background: url("../img/bg-passport-mobile.jpg") no-repeat center;
+.payments .image-gallery .image.second {
+  background: url("../img/bg-passport-mobile.jpg") no-repeat;
   background-size: cover;
 }
 
-.image.people {
-  grid-area: people;
-  grid-column: span 2;
+.payments .image-gallery .image.thirdy {
   background: url("../img/bg-people-mobile.jpg") no-repeat;
   background-size: cover;
-  background-position-x: center;
-  background-position-y: bottom;
+}
+
+.payments .image-gallery .image.colspan-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payments .image-gallery .image.first {
+    background: url("../img/bg-bag-tablet.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .payments .image-gallery .image.second {
+    background: url("../img/bg-passport-tablet.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .payments .image-gallery .image.thirdy {
+    background: url("../img/bg-people-tablet.jpg") no-repeat center bottom;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .payments .image-gallery {
+    width: 790px;
+  }
+
+  .payments .content-text {
+    width: 360px;
+  }
+
+  .payments .image-gallery .image.first {
+    background: url("../img/bg-bag-desktop.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .payments .image-gallery .image.second {
+    background: url("../img/bg-passport-desktop.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .payments .image-gallery .image.thirdy {
+    background: url("../img/bg-people-desktop.jpg") no-repeat center bottom;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    justify-content: space-around;
+  }
 }
