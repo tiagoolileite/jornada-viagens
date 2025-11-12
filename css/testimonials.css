@@ -1,0 +1,41 @@
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.testimonial-container article header p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.testimonial-container article footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.testimonial-container article footer img {
+  width: 86px;
+  height: 86px;
+}
+
+.testimonial-container article footer .profile-content h4 {
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0 0 8px;
+}
+
+.testimonial-container article footer .profile-content .rating .star {
+  font-size: 32px;
+  line-height: 32px;
+  color: var(--secundary-color);
+}
+
+@media screen and (min-width: 1440px) {
+  .testimonial-container {
+    flex-direction: row;
+  }
+}
