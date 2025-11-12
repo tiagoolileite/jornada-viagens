@@ -68,4 +68,8 @@
   .card-offer header h3 {
     font-size: 48px;
   }
+
+  .button {
+    width: 280px;
+  }
 }
