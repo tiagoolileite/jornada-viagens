@@ -20,6 +20,14 @@
   line-height: 1.5;
 }
 
+.pre-footer .hero-img {
+  width: 100%;
+  height: 400px;
+  background: url(../img/hero-pre-footer-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
@@ -32,6 +40,14 @@
     padding-left: 60px;
     padding-right: 60px;
     font-size: 32px;
+  }
+
+  .pre-footer .hero-img {
+    width: 100%;
+    height: 400px;
+    background: url(../img/hero-pre-footer-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 
