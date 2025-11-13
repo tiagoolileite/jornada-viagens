@@ -6,7 +6,7 @@
   margin-bottom: 24px;
 }
 
-.destination-item header h4 {
+.destination-item header h3 {
   color: var(--text-primary-color);
   margin: 24px 0;
 }
