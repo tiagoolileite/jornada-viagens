@@ -110,6 +110,10 @@
     padding: 104px 120px 0;
   }
 
+  .pre-footer .hero-img {
+    height: 600px;
+  }
+
   .hero-img .hero-content {
     padding: 160px 740px 160px 120px;
   }
