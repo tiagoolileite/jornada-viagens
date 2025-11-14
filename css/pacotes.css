@@ -1,3 +1,53 @@
 .hero-img {
   background-image: url("../img/bg-fuji-san-mobile.jpg");
 }
+
+.image-gallery {
+  margin-top: 24px;
+}
+
+.payments h3 {
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.payments h3 .subtittle {
+  margin-top: 24px;
+  font-size: 28px;
+}
+
+.payments .image-gallery .image.first {
+  background: url("../img/bg-package-payment-1-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.payments .image-gallery .image.second {
+  background: url("../img/bg-package-payment-2-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.payments .image-gallery .image.thirdy {
+  background: url("../img/bg-package-payment-3-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .payments .button {
+    display: none;
+  }
+
+  .payments .image-gallery .image.first {
+    background: url("../img/bg-package-payment-1-tablet.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .payments .image-gallery .image.second {
+    background: url("../img/bg-package-payment-2-tablet.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .payments .image-gallery .image.thirdy {
+    background: url("../img/bg-package-payment-3-tablet.jpg") no-repeat;
+    background-size: cover;
+  }
+}

@@ -76,4 +76,8 @@
   .payments .content-container {
     justify-content: space-around;
   }
+
+  .payments .content-container .text-content {
+    padding: 96px 0;
+  }
 }
